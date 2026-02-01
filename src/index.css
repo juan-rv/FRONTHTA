@@ -1,0 +1,16 @@
+/* src/index.css - LIMPIO */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  /* IMPORTANTE: Quitamos 'display: flex' y 'place-items: center' */
+  display: block; 
+}
