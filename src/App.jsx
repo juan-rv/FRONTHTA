@@ -132,7 +132,7 @@ const FinalReport = ({ analisis, titulo }) => {
 
       <div style={{ marginTop: 25, textAlign: "right", borderTop: "1px solid #eee", paddingTop: 10 }}>
         <span style={{ fontSize: "1.4rem", fontWeight: "bold", color: "#020406" }}>
-          Nota Final: {metricas.promedio || "N/A"}/5.0
+          Nota Final: {metricas.promedio ? Math.trunc(metricas.promedio) : "N/A"}/5.0
         </span>
         
       </div>
